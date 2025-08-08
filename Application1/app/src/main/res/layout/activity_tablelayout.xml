@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2">
+    <!--android:stretchColumns 屬性用於指定哪些列應該被拉伸以填充剩餘空間。-->
+    <!--android:stretchColumns="1"
+    只會讓第2欄（索引1）拉伸填滿剩餘空間，但因為 TableLayout 會自動對齊，三欄看起來一樣寬。
+    但要三欄都以平均寬度拉伸，要寫成 android:stretchColumns="0,1,2"。-->
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView1_1"
+            android:background="@color/yellow"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="遊戲名稱"
+            android:textColor="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1_2"
+            android:background="#FF9800"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="遊戲版本"
+            android:textColor="#4CAF50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1_3"
+            android:background="@color/yellow"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="手機系統版本"
+            android:textColor="#9C27B0"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView2_1"
+            android:layout_margin="5dp"
+            android:text="明日方舟" />
+
+        <TextView
+            android:id="@+id/textView2_2"
+            android:layout_margin="5dp"
+            android:text="Version 4.5" />
+
+        <TextView
+            android:id="@+id/textView2_3"
+            android:layout_margin="5dp"
+            android:text="Android 7.1版" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView3_1"
+            android:layout_margin="5dp"
+            android:text="崩壞:星穹鐵道" />
+
+        <TextView
+            android:id="@+id/textView3_2"
+            android:layout_margin="5dp"
+            android:text="Version 3.3" />
+
+        <TextView
+            android:id="@+id/textView3_3"
+            android:layout_margin="5dp"
+            android:text="Android 8.0版" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView4_1"
+            android:layout_margin="5dp"
+            android:text="絕區零" />
+
+        <TextView
+            android:id="@+id/textView4_2"
+            android:layout_margin="5dp"
+            android:text="Version 2.6" />
+
+        <TextView
+            android:id="@+id/textView4_3"
+            android:layout_margin="5dp"
+            android:text="Android 8.3版" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/button_1"
+        android:text="選取遊戲" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:text="離開選單" />
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/button_3"
+            android:text="加入選單" />
+
+        <Button
+            android:id="@+id/button_3_1"
+            android:text="編輯選單" />
+
+        <Button
+            android:id="@+id/button_3_2"
+            android:text="清除選單" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/image_01"
+            android:src="@android:drawable/btn_star_big_on" />
+
+        <ImageView
+            android:id="@+id/image_01_2"
+            android:src="@android:drawable/btn_star_big_off" />
+
+        <ImageView
+            android:id="@+id/image_01_3"
+            android:src="@android:drawable/btn_dialog" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/image_02"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/check02_16" />
+
+    <TableRow android:background="#00BCD4">
+
+        <TextView
+            android:id="@+id/textView_01"
+            android:layout_margin="2dp"
+            android:background="#B4D8F1"
+            android:text="九日" />
+
+        <TextView
+            android:id="@+id/textView_02"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="#B4D8F1"
+            android:text="Version 1.0" />
+
+        <TextView
+            android:id="@+id/textView_03"
+            android:layout_margin="2dp"
+            android:background="#B4D8F1"
+            android:text="Android 5.0" />
+    </TableRow>
+
+</TableLayout>

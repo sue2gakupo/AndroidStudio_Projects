@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HW</string>
+    <string name="hello">my_first_APP </string>
+    <string name="text_underline"><u>底線文字:第四組textview設定位置</u></string>
+    <string name="text_symble">-#$%^*輸出符號字元測試)(+_=></string>
+</resources>

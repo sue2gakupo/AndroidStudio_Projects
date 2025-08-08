@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="1.喜歡的文學類型："
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:checkMark="?android:attr/listChoiceIndicatorSingle"
+        android:text="純文學"
+        android:textSize="16sp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:text="純文學"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

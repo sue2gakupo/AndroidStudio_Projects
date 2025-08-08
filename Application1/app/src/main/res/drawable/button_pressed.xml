@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#B96D66"/>
+            <corners android:radius="8dp"/>
+
+        </shape>
+    </item>
+    <!--代表press之後show的內容-->
+
+    <item>
+        <shape>
+            <solid android:color="#D9B175"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+    <!--沒有press的時候呈現的內容-->
+
+</selector>

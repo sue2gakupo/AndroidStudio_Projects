@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+<!--    有點類似col&row-->
+        <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="40dp"
+            android:text="Hello !"
+            android:textColor="#D1D997"
+            android:textSize="24sp"
+            android:background="#FF0000"
+            android:textAlignment="center"
+            />
+
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="40dp"
+            android:text="World !"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:background="#00BCD4"
+            android:textAlignment="center"
+            />
+
+         </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Textview元件練習"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="#EB8484"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Textview\n元件二"
+        android:background="#2196F3"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="第三組textview文字練習"
+        android:gravity="clip_vertical"
+        android:background="#D4E809"
+        android:textStyle="italic"
+        />
+        <!--    italic斜體字-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_symble"
+        android:layout_gravity="center"
+        android:background="#009688"
+        />
+
+
+
+
+</LinearLayout>
